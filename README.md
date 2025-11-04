@@ -16,3 +16,9 @@ brew tap chihqiang/soft
 ```
 brew install chihqiang/soft/sshpass
 ```
+
+## sshpass：
+
+```
+brew install chihqiang/soft/sshfwd
+```
