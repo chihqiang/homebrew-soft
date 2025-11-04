@@ -3,7 +3,7 @@ class Sshfwd < Formula
   homepage "https://github.com/chihqiang/sshfwd"
   url "https://github.com/chihqiang/sshfwd/archive/refs/tags/v0.1.0.tar.gz"
   version "0.1.0"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "258c485ca40028f3e7d5e6b7d00aef2b6a163b3803c640ef58dd3205f5e8a1d0"
   license "Apache-2.0"
   head "https://github.com/chihqiang/sshfwd", branch: "main"
 
