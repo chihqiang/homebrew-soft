@@ -34,7 +34,7 @@ brew cleanup chihqiang/soft
 brew install chihqiang/soft/sshpass
 ```
 
-## [sshpass](https://github.com/chihqiang/sshfwd)：
+## [sshfwd](https://github.com/chihqiang/sshfwd)：
 
 ```bash
 brew install chihqiang/soft/sshfwd
