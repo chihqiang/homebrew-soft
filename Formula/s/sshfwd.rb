@@ -1,13 +1,13 @@
 class Sshfwd < Formula
   desc "Lightweight Go-based SSH port forwarding tool – replicates ssh -L/ssh -R core features, no system SSH dependency, cross-platform ready-to-use."
   homepage "https://github.com/chihqiang/sshfwd"
-  url "https://github.com/chihqiang/sshfwd/archive/refs/tags/v0.1.1.tar.gz"
-  version "0.1.1"
-  sha256 "0661728dfec651527a63672329968e1777ccc4b4b79626abfdd927b0bf0cbf1d"
+  url "https://github.com/chihqiang/sshfwd/archive/refs/tags/v0.1.2.tar.gz"
+  version "0.1.2"
+  sha256 "f0b33844a73453625296678089cd1871d7f69b9a3b7149e558eabab53acc0517"
   license "Apache-2.0"
   head "https://github.com/chihqiang/sshfwd", branch: "main"
   
-  depends_on "go@1.23" => :build
+  depends_on "go" => :build
 
   def install
     ENV["CGO_ENABLED"] = "0"
